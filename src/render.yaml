@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stock-price-prediction-backend
+    env: python
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    plan: free
+    blueprintName: stock_api # This is where you specify your blueprint name
