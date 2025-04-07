@@ -8,3 +8,4 @@ yfinance
 textblob
 tensorflow
 scikit-learn
+gunicorn
