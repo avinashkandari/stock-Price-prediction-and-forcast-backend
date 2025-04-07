@@ -1,10 +1,10 @@
 flask
 flask-cors
-tensorflow
-pandas
+pytz
 numpy
+pandas
 requests
+yfinance
 textblob
+tensorflow
 scikit-learn
-python-dotenv
-gunicorn  # For production deployment
